@@ -51,6 +51,227 @@ body{
 		-webkit-text-size-adjust: none;
 	}
 
+	/* Header */
+
+	#team {
+		/*background: #4acaa8;*/
+		color: #d1f1e9;
+		height: 100%;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		width: 23em;
+		right: 0;
+		margin-right: 18em;
+		margin-top: 2.5em;
+	}
+
+		#team h1, #team h2, #team h3, #team h4, #team h5, #team h6 {
+			color: #ffffff;
+		}
+
+			#team h1 a, #team h2 a, #team h3 a, #team h4 a, #team h5 a, #team h6 a {
+				color: #ffffff;
+			}
+
+		#team header p {
+			color: #b6e9dc;
+		}
+
+		#team a {
+			color: #d1f1e9;
+		}
+
+			#team a:hover {
+				color: #ffffff !important;
+			}
+
+		#team > header {
+			padding: 3em;
+		}
+
+			#team > header .avatar {
+				display: block;
+				margin: 0 auto 2.25em auto;
+				width: 8em;
+			}
+
+			#team > header h1 {
+				font-size: 1.75em;
+				margin: 0;
+			}
+
+			#team > header p {
+				color: #d1f1e9;
+				margin: 1em 0 0 0;
+			}
+
+		#team > footer {
+			bottom: 0;
+			left: 0;
+			padding: 2em;
+			position: absolute;
+			width: 100%;
+		}
+
+			#team > footer .icons {
+				margin: 0;
+			}
+
+				#team > footer .icons li a {
+					color: #b6e9dc;
+				}
+
+		#team > nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+			#team > nav ul li {
+				border-top: solid 2px #5ccfb0;
+				display: block;
+				padding: 0;
+			}
+
+				#team > nav ul li a {
+					-moz-transition: none;
+					-webkit-transition: none;
+					-ms-transition: none;
+					transition: none;
+					border: 0;
+					color: #ffffff !important;
+					display: block;
+					padding: 0.85em 0;
+					text-decoration: none;
+				}
+
+					#team > nav ul li a.active {
+						background: #fff;
+						color: #4acaa8 !important;
+					}
+
+				#team > nav ul li:first-child {
+					border-top: 0;
+				}
+
+/* Header */
+
+	#team2 {
+		/*background: #4acaa8;*/
+		color: #d1f1e9;
+		height: 100%;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		width: 23em;
+		right: 0;
+		margin-top: 2.5em;
+	}
+
+		#team2 h1, #team2 h2, #team2 h3, #team2 h4, #team2 h5, #team2 h6 {
+			color: #ffffff;
+		}
+
+			#team2 h1 a, #team2 h2 a, #team2 h3 a, #team2 h4 a, #team2 h5 a, #team2 h6 a {
+				color: #ffffff;
+			}
+
+		#team2 header p {
+			color: #b6e9dc;
+		}
+
+		#team2 a {
+			color: #d1f1e9;
+		}
+
+			#team2 a:hover {
+				color: #ffffff !important;
+			}
+
+		#team2 > header {
+			padding: 3em;
+		}
+
+			#team2 > header .avatar {
+				display: block;
+				margin: 0 auto 2.25em auto;
+				width: 8em;
+			}
+
+			#team2 > header h1 {
+				font-size: 1.75em;
+				margin: 0;
+			}
+
+			#team2 > header p {
+				color: #d1f1e9;
+				margin: 1em 0 0 0;
+			}
+
+		#team2 > footer {
+			bottom: 0;
+			left: 0;
+			padding: 2em;
+			position: absolute;
+			width: 100%;
+		}
+
+			#team2 > footer .icons {
+				margin: 0;
+			}
+
+				#team2 > footer .icons li a {
+					color: #b6e9dc;
+				}
+
+		#team2 > nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+			#team2 > nav ul li {
+				border-top: solid 2px #5ccfb0;
+				display: block;
+				padding: 0;
+			}
+
+				#team2 > nav ul li a {
+					-moz-transition: none;
+					-webkit-transition: none;
+					-ms-transition: none;
+					transition: none;
+					border: 0;
+					color: #ffffff !important;
+					display: block;
+					padding: 0.85em 0;
+					text-decoration: none;
+				}
+
+					#team2 > nav ul li a.active {
+						background: #fff;
+						color: #4acaa8 !important;
+					}
+
+				#team2 > nav ul li:first-child {
+					border-top: 0;
+				}
+
+/* Image in Team */
+.image.avatar {
+    border-radius: 100%;
+    display: block;
+    width: 100%;
+	overflow: hidden;
+}
+
+.image.avatar img {
+    border-radius: 100%;
+    display: block;
+    width: 100%;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -322,6 +543,10 @@ body{
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+
+			#team, #team2 {
+				visibility: hidden;
 			}
 
 		}
